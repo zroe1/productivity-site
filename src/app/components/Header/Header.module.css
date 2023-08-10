@@ -70,3 +70,59 @@
     }
   
   }
+
+  @media (max-device-width: 500px) {
+    .desktopMenuLink {
+      display: none;
+    }
+    /* DONT DELETE COMMENT*/
+    .mobileMenu {
+      display: flex;
+      position: absolute;
+      top: 61px;
+      width: 100vw;
+      height: 50px;
+      justify-content: space-around;
+      padding: 0px;
+      margin: 0px;
+      border-bottom: solid 1px black;
+      align-items: center;
+    }
+    .pageHead {
+      width: 100vw;
+      height: 12vw;
+      border-bottom: solid black 1px;
+      display: flex;
+      align-items: center;
+    }
+    .githubLogo {
+      height: 6vw;
+    }
+    .headerTitle {
+      font-size: 6vw;
+      margin: 0;
+      color: rgb(29, 42, 54);
+    }
+    .navLink {
+      margin: 0px;
+      font-size: 4vw;
+      text-decoration: none;
+      color: rgb(29, 42, 54);
+    }
+    .mobileMenu {
+      display: flex;
+      position: absolute;
+      top: 12.1vw;
+      width: 100vw;
+      height: 10vw;
+      justify-content: space-around;
+      padding: 0px;
+      margin: 0px;
+      border-bottom: solid 1px black;
+      align-items: center;
+    }
+    .icon {
+      height: 6vw;
+    }
+  }
+  
