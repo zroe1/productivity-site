@@ -22,20 +22,28 @@ import Image from 'next/image'
 
 const Header = () => {
   return (
-    <header className={styles.pageHead}>
-      {/*eslint-disable-next-line @next/next/no-img-element*/}
-      <img className={styles.icon} src="graphlogo.png" alt="logo"></img>
-      <div className={styles.headerTitle}>zephaniahsdata.com</div>
-      <nav className={styles.desktopMenu}>
+    <>
+      <header className={styles.pageHead}>
+        {/*eslint-disable-next-line @next/next/no-img-element*/}
+        <img className={styles.icon} src="graphlogo.png" alt="logo"></img>
+        <div className={styles.headerTitle}>zephaniahsdata.com</div>
+        <nav className={styles.desktopMenu}>
+          <a className={`${styles.navLink} ${styles.desktopMenuLink}`}>Data</a>
+          <a className={`${styles.navLink} ${styles.desktopMenuLink}`}>Results</a>
+          <a className={`${styles.navLink} ${styles.desktopMenuLink}`}>Progress</a>
+          <a className={`${styles.navLink} ${styles.desktopMenuLink}`}>About</a>
+          <a className={`${styles.navLink} ${styles.desktopMenuLink}`}>GitHub</a>
+          {/*eslint-disable-next-line @next/next/no-img-element*/}
+          <img src="github-mark.png" alt="github" className={styles.githubLogo}></img>
+        </nav>
+      </header>
+      <nav className={styles.mobileMenu}>
         <a className={styles.navLink}>Data</a>
         <a className={styles.navLink}>Results</a>
         <a className={styles.navLink}>Progress</a>
         <a className={styles.navLink}>About</a>
-        <a className={styles.navLink}>GitHub</a>
-        {/*eslint-disable-next-line @next/next/no-img-element*/}
-        <img src="github-mark.png" alt="github" className={styles.githubLogo}></img>
       </nav>
-    </header>
+    </>
   )
 }
 

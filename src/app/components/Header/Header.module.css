@@ -46,3 +46,27 @@
 .githubLogo {
   height: 30px;
 }
+
+.mobileMenu {
+  display: none;
+}
+
+@media (max-width: 850px) {
+    .desktopMenuLink {
+      display: none;
+    }
+
+    .mobileMenu {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      position: absolute;
+      top: 61px;
+      width: 100vw;
+      height: 50px;
+      padding: 0px;
+      margin: 0px;
+      border-bottom: solid 1px black;
+    }
+  
+  }
