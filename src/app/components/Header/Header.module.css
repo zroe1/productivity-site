@@ -1,0 +1,48 @@
+.pageHead {
+  width: 100vw;
+  height: 60px;
+  border-bottom: solid  rgb(255, 81, 0) 3px;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  height: 35px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.headerTitle {
+  font-size: 32px;
+  margin: 0;
+  color: rgb(29, 42, 54);
+  font-weight: 500;
+}
+
+.desktopMenu {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  right: 20px;
+}
+
+.navLink {
+  transition: color 0.5s ease-out;
+  font-weight: 300;
+
+  margin-left: 20px;
+  margin-top: 3px;
+  margin-right: 5px;
+
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(29, 42, 54);
+}
+
+.navLink:hover {
+  color:  rgb(255, 81, 0);
+}
+
+.githubLogo {
+  height: 30px;
+}
