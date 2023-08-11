@@ -1,5 +1,6 @@
 import styles from './Header.module.css'
-import Image from 'next/image'
+// import Image from 'next/image'
+import Link from 'next/link';
 
 {/* <header>
   <img height="35px" class="icon" src="graphlogo.png" alt="">
@@ -25,13 +26,15 @@ const Header = () => {
     <>
       <header className={styles.pageHead}>
         {/*eslint-disable-next-line @next/next/no-img-element*/}
-        <img className={styles.icon} src="graphlogo.png" alt="logo"></img>
-        <div className={styles.headerTitle}>zephaniahsdata.com</div>
+        <a href="../../">
+          <img className={styles.icon} src="graphlogo.png" alt="logo"></img>
+        </a>
+        <Link className={styles.headerTitle} href="../../">zephaniahsdata.com</Link>
         <nav className={styles.desktopMenu}>
-          <a className={`${styles.navLink} ${styles.desktopMenuLink}`}>Data</a>
+          <a className={`${styles.navLink} ${styles.desktopMenuLink}` }>Data</a>
           <a className={`${styles.navLink} ${styles.desktopMenuLink}`}>Results</a>
           <a className={`${styles.navLink} ${styles.desktopMenuLink}`}>Progress</a>
-          <a className={`${styles.navLink} ${styles.desktopMenuLink}`}>About</a>
+          <Link className={`${styles.navLink} ${styles.desktopMenuLink}`} href="../../about">About</Link>
           <a className={`${styles.navLink} ${styles.desktopMenuLink}`}>GitHub</a>
           {/*eslint-disable-next-line @next/next/no-img-element*/}
           <img src="github-mark.png" alt="github" className={styles.githubLogo}></img>
