@@ -1,10 +1,11 @@
 import styles from './LearnMoreButton.module.css'
+import Link from 'next/link';
 
 const LearnMoreButton = () => {
     return (
-      <div className={styles.linkBox}>
+      <Link className={styles.linkBox} href="/about">
         Learn More
-      </div>
+      </Link>
     )
 }
 

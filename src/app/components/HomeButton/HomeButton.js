@@ -1,10 +1,11 @@
 import styles from './HomeButton.module.css'
+import Link from 'next/link';
 
 const HomeButton = (props) => {
   return (
-    <div className={styles.linkBox}>
+    <Link className={styles.linkBox} href={props.link}>
       {props.text}
-    </div>
+    </Link>
   )
 }
 

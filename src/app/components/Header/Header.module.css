@@ -76,7 +76,7 @@
       display: none;
     }
     /* DONT DELETE COMMENT*/
-    .mobileMenu {
+    /* .mobileMenu {
       display: flex;
       position: absolute;
       top: 61px;
@@ -87,7 +87,7 @@
       margin: 0px;
       border-bottom: solid 1px black;
       align-items: center;
-    }
+    } */
     .pageHead {
       width: 100vw;
       height: 12vw;

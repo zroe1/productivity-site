@@ -1,0 +1,36 @@
+.title {
+  font-weight: 600;
+}
+
+.container {
+  margin-top: 20px;
+  width: 100vw;
+  /* background-color: aliceblue; */
+  display: flex;
+  justify-content: center;
+}
+
+.innerContainer {
+  width: 700px;
+  max-width: 85vw;
+  /* background-color: antiquewhite; */
+}
+
+.divider {
+  background-color: rgb(255, 81, 0);
+  width: 90%;
+  margin-left: 5%;
+  height: 3px;
+}
+
+@media (max-width: 850px) {
+  .container {
+    margin-top: 60px;
+  }
+}
+@media (max-device-width: 500px) {
+  .container {
+    margin-top: calc(10vw);
+  }
+}
+
