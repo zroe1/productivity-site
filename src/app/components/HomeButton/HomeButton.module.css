@@ -47,5 +47,8 @@
     /* height: 6vw; */
     /* border-radius: 2vw */
   }
+  .linkBox:hover {
+    margin-left: 24px;
+  }
 
 }
