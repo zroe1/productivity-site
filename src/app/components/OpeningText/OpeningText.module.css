@@ -1,10 +1,11 @@
 .textDiv {
-  width: 41vw;
+  /* width: 41vw; */
+  width: calc(100% - 446px);
   /* background-color: beige; */
 }
 
 .introText {
-  font-weight: 500;
+  /* font-weight: 500; */
   margin-top: 0px;
   width: 65vw;
   z-index: 2;
@@ -21,11 +22,12 @@
 }
 
 .discription {
-  width: 37vw;
+  /* width: 37vw; */
+  width: 90%;
 }
 
 .discriptionText {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 300;
 }
 
@@ -36,7 +38,7 @@
   height: 120px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1150px) {
   .textDiv {
     width: 78vw;
   }
