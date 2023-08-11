@@ -1,23 +1,18 @@
-import Link from 'next/link'
-import CountButton from './components/CountButton/CountButton'
-import SearchBar from './components/SearchBar/SearchBar'
 import styles from './page.module.css'
-
-const products = [
-    'tooth paste',
-    'tooth brush',
-    'mouth wash',
-    'dental floss',
-    'mouth guard',
-]
-  
+import OpeningText from './components/OpeningText/OpeningText'
+import LearnMoreButton from './components/LearnMoreButton/LearnMoreButton'
 
 export default function Home() {
 
-  const myItem = 'mike'
-  
   return (
-    // <CountButton incrementBy={5} buttonColor={'blue'} />
-    <></>
+    <main>
+      <div className={styles.container}>
+        <OpeningText />
+        <img className={styles.homeGraphic} src="temp.png"></img>
+      </div>
+      <div className={styles.homePageBottom}>
+        <LearnMoreButton />
+      </div>
+    </main>
   )
 }
