@@ -22,6 +22,8 @@ export default function Home() {
     // Attach the event listener
     window.addEventListener('resize', handleResize);
 
+    handleResize();
+
     // Clean up the event listener when the component is unmounted
     return () => {
       window.removeEventListener('resize', handleResize);
