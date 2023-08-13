@@ -59,9 +59,11 @@
 
 .footerTitle {
   /* font-family: 'Crimson Text', serif; */
-  font-weight: 700;
+  font-weight: 600;
   font-size: 30px;
   margin: 5px;
+  color: black;
+  text-decoration: none;
 }
 
 .footerText {

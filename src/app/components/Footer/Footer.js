@@ -46,9 +46,9 @@ const Footer = () => {
                 <Link href="/" className={styles.footerText}>About</Link>
             </div>
             <div className={styles.footerRight}>
-                <Link href="/" className={styles.footerText}>Github</Link>
-                <Link href="/" className={styles.footerText}>zephaniahdev.com</Link>
-                <Link href="/" className={styles.footerText}>zroe@uchicago.edu</Link>
+                <a href="https://github.com/zroe1" target="_blank" className={styles.footerText}>Github</a>
+                <Link href="https://zephaniahdev.com/" target="_blank" className={styles.footerText}>zephaniahdev.com</Link>
+                <p className={styles.footerText}>zroe@uchicago.edu</p>
             </div>
             <div className={styles.bottomFooterText}>
                 Roe web-development ©2023
