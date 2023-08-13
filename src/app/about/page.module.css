@@ -1,28 +1,26 @@
 .title {
   font-weight: 600;
+  font-size: 2em;
 }
 
 .container {
   margin-top: 20px;
   width: 100vw;
-  /* background-color: aliceblue; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
 }
 
 .innerContainer {
   width: 700px;
   max-width: 85vw;
-  /* background-color: antiquewhite; */
 }
 
 .divider {
   background-color: rgb(255, 81, 0);
   width: 90%;
   margin-left: 5%;
-  height: 3px;
+  height: 2px;
 }
 
 @media (max-width: 850px) {
