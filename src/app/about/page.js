@@ -1,4 +1,5 @@
 import styles from './page.module.css'
+import Footer from '../components/Footer/Footer'
 
 const About = () => {
     return (
@@ -53,6 +54,8 @@ const About = () => {
                     to make sure that that never happens.
                 </p>
             </div>
+            <Footer />
+
         </div>
     )
 }
