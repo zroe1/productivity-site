@@ -34,7 +34,7 @@ const Footer = () => {
             <div className={styles.footerLeft}>
                 <h3 className={styles.footerTitle}>zephaniahsdata.com</h3>
                 <div className={styles.shortDivider}></div>
-                <p className={`${styles.footerText}`}>For the last few months I have been tracking how I spend each 
+                <p className={`${styles.footerText} ${styles.footerDiscription}`}>For the last few months I have been tracking how I spend each 
                     15 minute block of time. Every day. Every hour. No matter what. 
                 </p>
             </div>
