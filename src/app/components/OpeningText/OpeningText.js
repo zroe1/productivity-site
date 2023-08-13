@@ -43,7 +43,7 @@ const OpeningText = () => {
       <div className={styles.linkList}>
         <HomeButton text="Veiw the data" link="/about"/>
         <HomeButton text="What I've Learned" link="/about"/>
-        <HomeButton text="Progress log" link="/about"/>
+        <HomeButton text="Progress log" link="/progress"/>
       </div>
     </div>
   )

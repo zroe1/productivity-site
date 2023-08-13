@@ -1,0 +1,17 @@
+.progressBlock {
+    width: clac(100% - 4px);
+    margin: 10px 0px 10px 0px;
+    border-radius: 20px;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.progressBlock:hover {
+    background-color: rgb(254, 242, 237);
+    border: 2px solid rgb(255, 81, 0);
+}
+
+.blockTitle {
+    margin: 0px;
+    font-weight: 500;
+}

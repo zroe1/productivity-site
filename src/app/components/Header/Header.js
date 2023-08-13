@@ -33,8 +33,8 @@ const Header = () => {
         <nav className={styles.desktopMenu}>
           <a className={`${styles.navLink} ${styles.desktopMenuLink}` }>Data</a>
           <a className={`${styles.navLink} ${styles.desktopMenuLink}`}>Results</a>
-          <a className={`${styles.navLink} ${styles.desktopMenuLink}`}>Progress</a>
-          <Link className={`${styles.navLink} ${styles.desktopMenuLink}`} href="../../about">About</Link>
+          <Link className={`${styles.navLink} ${styles.desktopMenuLink}`} href="/progress">Progress</Link>
+          <Link className={`${styles.navLink} ${styles.desktopMenuLink}`} href="/about">About</Link>
           <a className={`${styles.navLink} ${styles.desktopMenuLink}`}>GitHub</a>
           {/*eslint-disable-next-line @next/next/no-img-element*/}
           <img src="github-mark.png" alt="github" className={styles.githubLogo}></img>

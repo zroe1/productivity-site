@@ -1,4 +1,4 @@
-import styles from './page.module.css'
+import styles from '../outsidePages.module.css'
 import Footer from '../components/Footer/Footer'
 
 const About = () => {
