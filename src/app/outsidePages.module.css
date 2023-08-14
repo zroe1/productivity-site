@@ -28,6 +28,10 @@
   height: 2px;
 }
 
+.desktopGraph {
+  margin-left: calc(50% - 223px);
+}
+
 @media (max-width: 850px) {
   .container {
     margin-top: 60px;

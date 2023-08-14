@@ -6,12 +6,12 @@
   margin-left: 14vw;
 }
 
-/* .homeGraphic {
+.homeGraphic {
   position: relative;
   top: 20px;
-  width: 31vw;
-  z-index: -1;
-} */
+  /* width: 31vw;
+  z-index: -1; */
+}
 
 .homePageBottom {
   width: 100vw;

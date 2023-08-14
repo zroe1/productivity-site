@@ -1,25 +1,5 @@
-import styles from './Header.module.css'
-// import Image from 'next/image'
+import styles from './Header.module.css';
 import Link from 'next/link';
-
-{/* <header>
-  <img height="35px" class="icon" src="graphlogo.png" alt="">
-  <h1 class="header-title">zephaniahsdata.com</h1>
-  <menu class="desktop-menu">
-    <a class="header-menu desktop-menu-link" href="#">Data</a>
-    <a class="header-menu desktop-menu-link" href="#">Results</a>
-    <a class="header-menu desktop-menu-link" href="#">Progress</a>
-    <a class="header-menu desktop-menu-link" href="#">About</a>
-    <a class="header-menu desktop-menu-link" href="#">GitHub</a>
-    <img src="github-mark/github-mark.png" alt="github" class="github-logo">
-  </menu>
-</header>
-<menu class="mobile-menu">
-  <a class="header-menu" href="#">Data</a>
-  <a class="header-menu" href="#">Results</a>
-  <a class="header-menu" href="#">Progress</a>
-  <a class="header-menu" href="#">About</a>
-</menu> */}
 
 const Header = () => {
   return (
@@ -32,7 +12,7 @@ const Header = () => {
         <Link className={styles.headerTitle} href="../../">zephaniahsdata.com</Link>
         <nav className={styles.desktopMenu}>
           <Link className={`${styles.navLink} ${styles.desktopMenuLink}`} href="/">Home</Link>
-          <a className={`${styles.navLink} ${styles.desktopMenuLink}` }>Data</a>
+          <a className={`${styles.navLink} ${styles.desktopMenuLink}` }  href="/data">Data</a>
           <Link className={`${styles.navLink} ${styles.desktopMenuLink}`} href="/progress">Progress</Link>
           <Link className={`${styles.navLink} ${styles.desktopMenuLink}`} href="/about">About</Link>
           <a className={`${styles.navLink} ${styles.desktopMenuLink}`}>GitHub</a>
