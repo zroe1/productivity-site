@@ -42,8 +42,8 @@ const OpeningText = () => {
       </div>
       <div className={styles.linkList}>
         <HomeButton text="Veiw the data" link="/about"/>
-        <HomeButton text="Findings" link="/findings"/>
         <HomeButton text="Progress log" link="/progress"/>
+        <HomeButton text="Open in GitHub" link="/findings"/>
       </div>
     </div>
   )

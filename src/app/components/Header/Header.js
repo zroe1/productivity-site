@@ -31,8 +31,8 @@ const Header = () => {
         </a>
         <Link className={styles.headerTitle} href="../../">zephaniahsdata.com</Link>
         <nav className={styles.desktopMenu}>
+          <Link className={`${styles.navLink} ${styles.desktopMenuLink}`} href="/">Home</Link>
           <a className={`${styles.navLink} ${styles.desktopMenuLink}` }>Data</a>
-          <Link className={`${styles.navLink} ${styles.desktopMenuLink}`} href="/findings">Findings</Link>
           <Link className={`${styles.navLink} ${styles.desktopMenuLink}`} href="/progress">Progress</Link>
           <Link className={`${styles.navLink} ${styles.desktopMenuLink}`} href="/about">About</Link>
           <a className={`${styles.navLink} ${styles.desktopMenuLink}`}>GitHub</a>

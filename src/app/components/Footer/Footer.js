@@ -41,13 +41,14 @@ const Footer = () => {
             <div className={styles.footerMid}>
                 <Link href="/" className={styles.footerText}>Home</Link>
                 <Link href="/" className={styles.footerText}>Data</Link>
-                <Link href="/findings" className={styles.footerText}>Findings</Link>
                 <Link href="/progress" className={styles.footerText}>Progress</Link>
                 <Link href="/" className={styles.footerText}>About</Link>
+                <Link href="/findings" className={styles.footerText}>GitHub</Link>
             </div>
             <div className={styles.footerRight}>
-                <a href="https://github.com/zroe1" target="_blank" className={styles.footerText}>Github</a>
+                <p className={styles.footerText}><b>About me:</b></p>
                 <Link href="https://zephaniahdev.com/" target="_blank" className={styles.footerText}>zephaniahdev.com</Link>
+                <Link href="https://github.com/zroe1" target="_blank" className={styles.footerText}>github.com/zroe1</Link>
                 <p className={styles.footerText}>zroe@uchicago.edu</p>
             </div>
             <div className={styles.bottomFooterText}>
