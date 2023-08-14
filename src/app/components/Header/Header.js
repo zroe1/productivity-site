@@ -32,7 +32,7 @@ const Header = () => {
         <Link className={styles.headerTitle} href="../../">zephaniahsdata.com</Link>
         <nav className={styles.desktopMenu}>
           <a className={`${styles.navLink} ${styles.desktopMenuLink}` }>Data</a>
-          <a className={`${styles.navLink} ${styles.desktopMenuLink}`}>Results</a>
+          <Link className={`${styles.navLink} ${styles.desktopMenuLink}`} href="/findings">Findings</Link>
           <Link className={`${styles.navLink} ${styles.desktopMenuLink}`} href="/progress">Progress</Link>
           <Link className={`${styles.navLink} ${styles.desktopMenuLink}`} href="/about">About</Link>
           <a className={`${styles.navLink} ${styles.desktopMenuLink}`}>GitHub</a>
@@ -42,7 +42,7 @@ const Header = () => {
       </header>
       <nav className={styles.mobileMenu}>
         <a className={styles.navLink}>Data</a>
-        <a className={styles.navLink}>Results</a>
+        <a className={styles.navLink}>Findings</a>
         <a className={styles.navLink}>Progress</a>
         <a className={styles.navLink}>About</a>
       </nav>

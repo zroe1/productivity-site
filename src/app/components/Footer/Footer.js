@@ -41,7 +41,7 @@ const Footer = () => {
             <div className={styles.footerMid}>
                 <Link href="/" className={styles.footerText}>Home</Link>
                 <Link href="/" className={styles.footerText}>Data</Link>
-                <Link href="/" className={styles.footerText}>Results</Link>
+                <Link href="/findings" className={styles.footerText}>Findings</Link>
                 <Link href="/progress" className={styles.footerText}>Progress</Link>
                 <Link href="/" className={styles.footerText}>About</Link>
             </div>
