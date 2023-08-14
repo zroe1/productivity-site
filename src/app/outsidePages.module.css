@@ -3,6 +3,11 @@
   font-size: 2em;
 }
 
+.secondTitle {
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
 .container {
   margin-top: 20px;
   width: 100vw;
