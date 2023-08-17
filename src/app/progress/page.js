@@ -73,7 +73,7 @@ const Progress = () => {
           and wrote an algorithm that beats the game ~30% of the time. The code
           is availible on my GitHub.
         "/>
-        <ProgressBlock titleText="Letter Predictor (python project)" status="Completed June 13, 2023" discription="
+        <ProgressBlock titleText="Letter predictor (python project)" status="Completed June 13, 2023" discription="
           Using a linear regression model and publicly available data, my letter 
           predictor predicts the final letter in five-letter words.
         "/>
