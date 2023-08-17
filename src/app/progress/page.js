@@ -55,7 +55,7 @@ const Progress = () => {
         "/>
         <ProgressBlock titleText="tinyfilter (python package)" status="Version 1.0.1 (stable release August 7, 2023)" discription="
           tinyfilter is the computer vision equivalent to Andrej Karpathy 
-          micrograd. It convert images into ASCII art using the principles of 
+          micrograd. It converts images into ASCII art using the principles of 
           CNNs (convolutional neural networks). The project has been open sourced
           on PyPi (to install run pip install tinyfilter). The code is also 
           availible on my GitHub.
@@ -68,7 +68,7 @@ const Progress = () => {
           zephysballoons.com is a very simple personal website for my balloon 
           twisting business.
         "/>
-        <ProgressBlock titleText="Recreating 2048 (python project)" status="Complete and up to date" discription="
+        <ProgressBlock titleText="Recreating 2048 (python project)" status="Completed 6/12/2023" discription="
           Using python I created a text user interface for the popular game 2048 
           and wrote an algorithm that beats the game ~30% of the time. The code
           is availible on my GitHub.
