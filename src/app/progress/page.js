@@ -26,8 +26,13 @@ const Progress = () => {
           categories I track for and what I spend the most time on, navigate to the 'Data' page on
           the menu.
         </p>
-        {/* <div className={styles.divider}></div> */}
-        <ProgressBlock titleText="zephaniahdev.com (React project)" status="Mostly in working condition" discription="
+        <ProgressBlock titleText="AI Safety Fundamentals Alignment Course" status="Currently in progress" discription="
+          I am currently taking the this course with a group of other interested
+          students to self-study the potential impact of AI. I am unsure how I
+          feel about a lot of the things discussed in the course but I find it
+          very interesting to think about.
+        "/>
+        <ProgressBlock titleText="zephaniahdev.com (React project)" status="Ready for release on August 19, 2023" discription="
           zephaniahdev.com is a new personal website I created with React and 
           three.js. It serves as a home to all my important profiles and 
           projects. Additionally, it contains an interactive user interface, and 
@@ -68,14 +73,14 @@ const Progress = () => {
           zephysballoons.com is a very simple personal website for my balloon 
           twisting business.
         "/>
-        <ProgressBlock titleText="Recreating 2048 (python project)" status="Completed 6/12/2023" discription="
-          Using python I created a text user interface for the popular game 2048 
-          and wrote an algorithm that beats the game ~30% of the time. The code
-          is availible on my GitHub.
-        "/>
         <ProgressBlock titleText="Letter predictor (python project)" status="Completed June 13, 2023" discription="
           Using a linear regression model and publicly available data, my letter 
           predictor predicts the final letter in five-letter words.
+        "/>
+        <ProgressBlock titleText="Recreating 2048 (python project)" status="Completed June 12, 2023" discription="
+          Using python I created a text user interface for the popular game 2048 
+          and wrote an algorithm that beats the game ~30% of the time. The code
+          is availible on my GitHub.
         "/>
       </div>
       <Footer />
