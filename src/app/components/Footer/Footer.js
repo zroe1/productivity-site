@@ -43,7 +43,7 @@ const Footer = () => {
                 <Link href="/" className={styles.footerText}>Data</Link>
                 <Link href="/progress" className={styles.footerText}>Progress</Link>
                 <Link href="/" className={styles.footerText}>About</Link>
-                <Link href="/findings" className={styles.footerText}>GitHub</Link>
+                <Link href="https://github.com/zroe1/productivity-site" className={styles.footerText}>GitHub</Link>
             </div>
             <div className={styles.footerRight}>
                 <p className={styles.footerText}><b>About me:</b></p>

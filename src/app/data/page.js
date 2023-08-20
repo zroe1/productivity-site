@@ -40,7 +40,7 @@ const Data = () => {
             This is a pie chart of the total time I have spent on each category
             since I began recording:
           </p>
-          <iframe className={styles.desktopGraph} width="446" height="278" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQM2aZd61dMcmqW3tL_ISD3HO46ElesE-DKvzRQAu0NpaiNCNQ6E19O78mnyasZVwuwD7q0pzSqnkua/pubchart?oid=1147066034&amp;format=interactive"></iframe>
+          <iframe className={styles.desktopGraph} width="446" height="278" seamless frameBorder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQM2aZd61dMcmqW3tL_ISD3HO46ElesE-DKvzRQAu0NpaiNCNQ6E19O78mnyasZVwuwD7q0pzSqnkua/pubchart?oid=1147066034&amp;format=interactive"></iframe>
           <h2 className={styles.secondTitle}>Today's data</h2>
           <p>
             This is the data for what I have done so far today. Today's date should
@@ -48,7 +48,7 @@ const Data = () => {
             morning, I am probably sleeping and have not gotten up yet and charted
             my sleeping time.
           </p>
-          <iframe className={styles.desktopGraph} width="446" height="317" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQM2aZd61dMcmqW3tL_ISD3HO46ElesE-DKvzRQAu0NpaiNCNQ6E19O78mnyasZVwuwD7q0pzSqnkua/pubchart?oid=213546913&amp;format=interactive"></iframe>
+          <iframe className={styles.desktopGraph} width="446" height="317" seamless frameBorder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQM2aZd61dMcmqW3tL_ISD3HO46ElesE-DKvzRQAu0NpaiNCNQ6E19O78mnyasZVwuwD7q0pzSqnkua/pubchart?oid=213546913&amp;format=interactive"></iframe>
           <h2 className={styles.secondTitle}>Weekly coding average</h2>
           <p>
             This chart shows my weekly coding average over time. In the summer,
@@ -61,13 +61,13 @@ const Data = () => {
             This chart shows my weekly social average over time. It includes
             both time I spend with friends and family.
           </p>
-          <iframe className={styles.desktopGraph} width="446" height="278" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQM2aZd61dMcmqW3tL_ISD3HO46ElesE-DKvzRQAu0NpaiNCNQ6E19O78mnyasZVwuwD7q0pzSqnkua/pubchart?oid=506268619&amp;format=interactive"></iframe>
+          <iframe className={styles.desktopGraph} width="446" height="278" seamless frameBorder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQM2aZd61dMcmqW3tL_ISD3HO46ElesE-DKvzRQAu0NpaiNCNQ6E19O78mnyasZVwuwD7q0pzSqnkua/pubchart?oid=506268619&amp;format=interactive"></iframe>
           <h2 className={styles.secondTitle}>Weekly sleep average</h2>
           <p>
             This chart shows my weekly sleep average over time. As you can see,
             I prioritize sleep and the average stays consistently high over time.
           </p>
-          <iframe className={styles.desktopGraph} width="446" height="278" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQM2aZd61dMcmqW3tL_ISD3HO46ElesE-DKvzRQAu0NpaiNCNQ6E19O78mnyasZVwuwD7q0pzSqnkua/pubchart?oid=1860419165&amp;format=interactive"></iframe>
+          <iframe className={styles.desktopGraph} width="446" height="278" seamless frameBorder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQM2aZd61dMcmqW3tL_ISD3HO46ElesE-DKvzRQAu0NpaiNCNQ6E19O78mnyasZVwuwD7q0pzSqnkua/pubchart?oid=1860419165&amp;format=interactive"></iframe>
           <h2 className={styles.secondTitle}>Spring quarter classes</h2>
           <p>
             I don't have a lot of data for the time I spend in school becuase I
@@ -76,7 +76,7 @@ const Data = () => {
             I think it is interesting. The Latin and biology averages go to almost
             0 near the end because I finished those classes first.
           </p>
-          <iframe className={styles.desktopGraph} width="446" height="269" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQM2aZd61dMcmqW3tL_ISD3HO46ElesE-DKvzRQAu0NpaiNCNQ6E19O78mnyasZVwuwD7q0pzSqnkua/pubchart?oid=1411807317&amp;format=interactive"></iframe>
+          <iframe className={styles.desktopGraph} width="446" height="269" seamless frameBorder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQM2aZd61dMcmqW3tL_ISD3HO46ElesE-DKvzRQAu0NpaiNCNQ6E19O78mnyasZVwuwD7q0pzSqnkua/pubchart?oid=1411807317&amp;format=interactive"></iframe>
         </div>
         <Footer />
       </div>
