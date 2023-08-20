@@ -32,6 +32,11 @@
   margin-left: calc(50% - 223px);
 }
 
+.boldCenter {
+  font-weight: bold;
+  text-align: center;
+}
+
 @media (max-width: 850px) {
   .container {
     margin-top: 60px;

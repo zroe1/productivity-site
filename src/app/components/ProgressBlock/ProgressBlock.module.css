@@ -1,3 +1,8 @@
+.progressLink {
+    color: black;
+    text-decoration: none;
+}
+
 .progressBlock {
     width: clac(100% - 4px);
     margin: 10px 0px 10px 0px;
