@@ -30,6 +30,12 @@
 
 .desktopGraph {
   margin-left: calc(50% - 223px);
+  display: block;
+}
+
+.mobileGraph {
+  margin-left: calc(50% - 181px);
+  display: none;
 }
 
 .boldCenter {
@@ -45,6 +51,14 @@
 @media (max-device-width: 500px) {
   .container {
     margin-top: calc(10vw);
+  }
+
+  .desktopGraph {
+    display: none;
+  }
+
+  .mobileGraph {
+    display: block;
   }
 }
 

@@ -41,6 +41,7 @@ const Data = () => {
             since I began recording:
           </p>
           <iframe className={styles.desktopGraph} width="446" height="278" seamless frameBorder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQM2aZd61dMcmqW3tL_ISD3HO46ElesE-DKvzRQAu0NpaiNCNQ6E19O78mnyasZVwuwD7q0pzSqnkua/pubchart?oid=1147066034&amp;format=interactive"></iframe>
+          <iframe className={styles.mobileGraph} width="362" height="226" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQM2aZd61dMcmqW3tL_ISD3HO46ElesE-DKvzRQAu0NpaiNCNQ6E19O78mnyasZVwuwD7q0pzSqnkua/pubchart?oid=1691080723&amp;format=interactive"></iframe>
           <h2 className={styles.secondTitle}>Today's data</h2>
           <p>
             This is the data for what I have done so far today. Today's date should
@@ -49,6 +50,7 @@ const Data = () => {
             my sleeping time.
           </p>
           <iframe className={styles.desktopGraph} width="446" height="317" seamless frameBorder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQM2aZd61dMcmqW3tL_ISD3HO46ElesE-DKvzRQAu0NpaiNCNQ6E19O78mnyasZVwuwD7q0pzSqnkua/pubchart?oid=213546913&amp;format=interactive"></iframe>
+          <iframe className={styles.mobileGraph} width="362" height="260" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQM2aZd61dMcmqW3tL_ISD3HO46ElesE-DKvzRQAu0NpaiNCNQ6E19O78mnyasZVwuwD7q0pzSqnkua/pubchart?oid=1937919038&amp;format=interactive"></iframe>
           <h2 className={styles.secondTitle}>Weekly coding average</h2>
           <p>
             This chart shows my weekly coding average over time. In the summer,
@@ -56,18 +58,21 @@ const Data = () => {
             shoot for closer to 15.
           </p>
           <iframe className={styles.desktopGraph} width="446" height="278" seamless frameBorder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQM2aZd61dMcmqW3tL_ISD3HO46ElesE-DKvzRQAu0NpaiNCNQ6E19O78mnyasZVwuwD7q0pzSqnkua/pubchart?oid=2842228&amp;format=interactive"></iframe>
+          <iframe className={styles.mobileGraph} width="362" height="226" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQM2aZd61dMcmqW3tL_ISD3HO46ElesE-DKvzRQAu0NpaiNCNQ6E19O78mnyasZVwuwD7q0pzSqnkua/pubchart?oid=2044341286&amp;format=interactive"></iframe>
           <h2 className={styles.secondTitle}>Weekly social average</h2>
           <p>
             This chart shows my weekly social average over time. It includes
             both time I spend with friends and family.
           </p>
           <iframe className={styles.desktopGraph} width="446" height="278" seamless frameBorder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQM2aZd61dMcmqW3tL_ISD3HO46ElesE-DKvzRQAu0NpaiNCNQ6E19O78mnyasZVwuwD7q0pzSqnkua/pubchart?oid=506268619&amp;format=interactive"></iframe>
+          <iframe className={styles.mobileGraph} width="362" height="226" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQM2aZd61dMcmqW3tL_ISD3HO46ElesE-DKvzRQAu0NpaiNCNQ6E19O78mnyasZVwuwD7q0pzSqnkua/pubchart?oid=1044246277&amp;format=interactive"></iframe>
           <h2 className={styles.secondTitle}>Weekly sleep average</h2>
           <p>
             This chart shows my weekly sleep average over time. As you can see,
             I prioritize sleep and the average stays consistently high over time.
           </p>
           <iframe className={styles.desktopGraph} width="446" height="278" seamless frameBorder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQM2aZd61dMcmqW3tL_ISD3HO46ElesE-DKvzRQAu0NpaiNCNQ6E19O78mnyasZVwuwD7q0pzSqnkua/pubchart?oid=1860419165&amp;format=interactive"></iframe>
+          <iframe className={styles.mobileGraph} width="362" height="226" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQM2aZd61dMcmqW3tL_ISD3HO46ElesE-DKvzRQAu0NpaiNCNQ6E19O78mnyasZVwuwD7q0pzSqnkua/pubchart?oid=576926545&amp;format=interactive"></iframe>
           <h2 className={styles.secondTitle}>Spring quarter classes</h2>
           <p>
             I don't have a lot of data for the time I spend in school becuase I
@@ -77,6 +82,7 @@ const Data = () => {
             0 near the end because I finished those classes first.
           </p>
           <iframe className={styles.desktopGraph} width="446" height="269" seamless frameBorder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQM2aZd61dMcmqW3tL_ISD3HO46ElesE-DKvzRQAu0NpaiNCNQ6E19O78mnyasZVwuwD7q0pzSqnkua/pubchart?oid=1411807317&amp;format=interactive"></iframe>
+          <iframe className={styles.mobileGraph} width="362" height="220" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQM2aZd61dMcmqW3tL_ISD3HO46ElesE-DKvzRQAu0NpaiNCNQ6E19O78mnyasZVwuwD7q0pzSqnkua/pubchart?oid=917596236&amp;format=interactive"></iframe>
         </div>
         <Footer />
       </div>
