@@ -7,9 +7,9 @@ const OpeningText = () => {
       <h1 className={styles.introText}>Hello, world. My name is Zephaniah.</h1>
       <div className={styles.discription}>
         <p className={styles.discriptionText}>
-          For the last few months I have been tracking how I spend each 15 
-          minute block of time. Every day. Every hour. No matter what. On this 
-          website you will find this data, updating by the minute, along
+          For the last four months I have been tracking how I spend each 15 
+          minute block of time. Every day. Every hour. No matter what. This 
+          website displays that data, updating by the minute, along
           with my what I am learning from it.
         </p>
       </div>

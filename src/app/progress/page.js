@@ -28,22 +28,22 @@ const Progress = () => {
         <ProgressBlock titleText="AI Safety Fundamentals Alignment Course" 
                        status="Currently in progress" link="https://course.aisafetyfundamentals.com/alignment"
                        discription="
-          I am currently taking the this course with a group of other interested
-          students to self-study the potential impact of AI. I am unsure how I
-          feel about a lot of the things discussed in the course but I find it
+          I am currently taking this course with a group of other interested
+          students to self-study the potential impact of AI. I am unsure about 
+          how I feel about a lot of the things discussed in the course but I find it
           very interesting to think about.
         "/>
         <ProgressBlock titleText="zephaniahdev.com (React project)" 
                        status="Ready for release on August 19, 2023" link="https://zephaniahdev.com/"
                        discription="
           zephaniahdev.com is a new personal website I created with React and 
-          three.js. It serves as a home to all my important profiles and 
+          Three.js. It serves as a home to all my important profiles and 
           projects. Additionally, it contains an interactive user interface, and 
           customizable settings, made possible by the powerful features built 
           into React.
         "/>
         <ProgressBlock titleText="zephaniahsdata.com (React project)" 
-                       status="If you are reading this it is done." link="https://github.com/zroe1/productivity-site"
+                       status="Still in progress" link="https://github.com/zroe1/productivity-site"
                        discription="
           A personal project to display the data I have collected about my
           productivity. You are looking at it right now!
@@ -52,16 +52,21 @@ const Progress = () => {
                        status="~1/3 Complete" link="https://doc.rust-lang.org/book/title-page.html"
                        discription="
           Rust is a systems programming language I am learning for fun. I have
-          a bit experience in c which makes coding in rust interesting because
+          experience in C which makes coding in Rust interesting because
           there are a number of significant differences between the two languages.
         "/>
         <ProgressBlock titleText="A Thousand Brains (book)" 
                        status="~3/4 complete" link="https://www.numenta.com/resources/books/a-thousand-brains-by-jeff-hawkins/"
                        discription="
-          Each row represents a day and each box represents
-          a 15 minute block in a day. Not very nice to look at, right?
-          Thats where this site comes in. Here you will find a human
-          readable version of the data.
+          This is a book discussing a new theory for how the neocortex works,
+          and how it relates to the potential impacts of AI. I think the book is 
+          interesting, but I find the lack of intellectual humility on the side of the author 
+          a bit off-putting and untrustworthy.
+        "/>
+        <ProgressBlock titleText="Comparing Sorting Algorithms in Rust and C" 
+                       status="Implemented eight algorithms so far" link="https://github.com/zroe1/sorting-rust-c"
+                       discription="
+            Implementation of various sorting algorithms and graphs of their performance in C and Rust.
         "/>
         <ProgressBlock titleText="MIT 6.S191: Introduction to Deep Learning (class)" 
                        status="Completed August 9, 2023" link="https://github.com/zroe1/MIT-6.S191"
@@ -72,7 +77,7 @@ const Progress = () => {
         <ProgressBlock titleText="tinyfilter (python package)" 
                        status="Version 1.0.1 (stable release August 7, 2023)" link="https://github.com/zroe1/tinyfilter"
                        discription="
-          tinyfilter is the computer vision equivalent to Andrej Karpathy 
+          tinyfilter is the computer vision equivalent to Andrej Karpathy's 
           micrograd. It converts images into ASCII art using the principles of 
           CNNs (convolutional neural networks). The project has been open sourced
           on PyPi (to install run pip install tinyfilter). The code is also 

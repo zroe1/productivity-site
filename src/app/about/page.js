@@ -10,8 +10,9 @@ const About = () => {
                     Put simply, this site is a public display of all the personal
                     data I have been collecting in a spreadsheet for the last
                     few months. This site automatically updates as I input new 
-                    data into the spreadsheet so the wesite is always up-to-date and 
-                    accurate. The raw spreadsheet looks like this:
+                    data into the spreadsheet so the information on this wesite 
+                    is always up-to-date and accurate. The raw spreadsheet looks 
+                    like this:
                 </p>
                 <img width="100%" src="spreadsheet.png"/>
                 <p>

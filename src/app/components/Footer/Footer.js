@@ -40,9 +40,9 @@ const Footer = () => {
             </div>
             <div className={styles.footerMid}>
                 <Link href="/" className={styles.footerText}>Home</Link>
-                <Link href="/" className={styles.footerText}>Data</Link>
+                <Link href="/data" className={styles.footerText}>Data</Link>
                 <Link href="/progress" className={styles.footerText}>Progress</Link>
-                <Link href="/" className={styles.footerText}>About</Link>
+                <Link href="/about" className={styles.footerText}>About</Link>
                 <Link href="https://github.com/zroe1/productivity-site" className={styles.footerText}>GitHub</Link>
             </div>
             <div className={styles.footerRight}>
