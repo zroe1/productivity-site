@@ -21,10 +21,10 @@ const Header = () => {
         </nav>
       </header>
       <nav className={styles.mobileMenu}>
-        <a className={styles.navLink}>Data</a>
-        <a className={styles.navLink}>Findings</a>
-        <a className={styles.navLink}>Progress</a>
-        <a className={styles.navLink}>About</a>
+        <a className={styles.navLink} href="/">Home</a>
+        <a className={styles.navLink} href="/data">Data</a>
+        <a className={styles.navLink} href="/progress">Progress</a>
+        <a className={styles.navLink} href="/about">About</a>
       </nav>
     </>
   )
