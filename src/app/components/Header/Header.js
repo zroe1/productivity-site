@@ -17,7 +17,7 @@ const Header = () => {
           <Link className={`${styles.navLink} ${styles.desktopMenuLink}`} href="/about">About</Link>
           <a className={`${styles.navLink} ${styles.desktopMenuLink}`} href="https://github.com/zroe1/productivity-site" target="_blank">GitHub</a>
           {/*eslint-disable-next-line @next/next/no-img-element*/}
-          <img src="github-mark.png" alt="github" className={styles.githubLogo}></img>
+          <a href="https://github.com/zroe1/productivity-site" target="_blank"><img src="github-mark.png" alt="github" className={styles.githubLogo}></img></a>
         </nav>
       </header>
       <nav className={styles.mobileMenu}>
