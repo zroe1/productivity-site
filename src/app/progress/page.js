@@ -25,8 +25,16 @@ const Progress = () => {
           it links to the project or code. Otherwise, it links to an outside page 
           with information about the item.
         </p>
+        <ProgressBlock titleText="Neural Network using only stdio.h & stdlib.h in C" 
+                       status="70% accuracy (still making changes)" link="https://github.com/zroe1/neural-network-from-scratch"
+                       discription="
+          Code for a fully functional neural network using only stdio.h and 
+          stdlib.h in C. I used the network to classify images from the MNIST 
+          dataset. Preforming matrix multiplication, calculating derivatives, 
+          and updating gradients is all done without any outside libraries.
+        "/>
         <ProgressBlock titleText="AI Safety Fundamentals Alignment Course" 
-                       status="Currently in progress" link="https://course.aisafetyfundamentals.com/alignment"
+                       status="Working on final project" link="https://course.aisafetyfundamentals.com/alignment"
                        discription="
           I am currently taking this course with a group of other interested
           students to self-study the potential impact of AI. I am unsure about 
@@ -43,7 +51,7 @@ const Progress = () => {
           into React.
         "/>
         <ProgressBlock titleText="zephaniahsdata.com (React project)" 
-                       status="Still in progress" link="https://github.com/zroe1/productivity-site"
+                       status="Testing release" link="https://github.com/zroe1/productivity-site"
                        discription="
           A personal project to display the data I have collected about my
           productivity. You are looking at it right now!
