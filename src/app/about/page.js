@@ -7,33 +7,33 @@ const About = () => {
             <div className={styles.innerContainer}>
                 <h1 className={styles.title}>What is this site?</h1>
                 <p>
-                    Put simply, this site is a public display of all the personal
-                    data I have been collecting in a spreadsheet for the last
-                    few months. This site automatically updates as I input new 
-                    data into the spreadsheet so the information on this wesite 
-                    is always up-to-date and accurate. The raw spreadsheet looks 
-                    like this:
+                    This website publicly showcases the data I've compiled over 
+                    the past four months, detailing how I've spent my time. As I 
+                    introduce new data into the spreadsheet, the website updates 
+                    in real-time, ensuring that the information you see is 
+                    always current and precise. Here's a glimpse of the raw 
+                    spreadsheet:
                 </p>
                 <img width="100%" src="spreadsheet.png"/>
                 <p>
-                    Each row represents a day and each box represents
-                    a 15 minute block in a day. Not very nice to look at, right?
-                    Thats where this site comes in. Here you will find a human
-                    readable version of the data.
+                    Each row stands for a day, while every box signifies a 
+                    15-minute block within that day. Not very nice to look at, 
+                    right? That's the purpose of this website — to 
+                    present the data in a more reader-friendly format.
                 </p>
                 <p>
-                    For more information about the
-                    categories I track for and what I spend the most time on, navigate to the 'Data' page on
-                    the menu.
+                    For more information about the categories I track for and 
+                    what I spend the most time on, navigate to the 'Data' page 
+                    on the menu.
                 </p>
                 <div className={styles.divider}></div>
                 <h1 className={styles.title}>Why do I collect my data?</h1>
                 <p>
                     I collect data for a few reasons. The biggest motivation,
                     however, is to keep myself accountable. When my friend Connor
-                    first introduced me to the idea of tracking my time, he
+                    first introduced me to the idea of time-tracking, he
                     explained, "What gets measured gets optimized." I have found 
-                    this to be undeniably true.
+                    this to be profoundly true.
                 </p>
                 <p>
                     By tracking how much time I spend coding, reading, and 
@@ -45,14 +45,11 @@ const About = () => {
                 <div className={styles.divider}></div>
                 <h1 className={styles.title}>Why did I decide to make my data public?</h1>
                 <p>
-                    I made this site public for the same reason I decided to
-                    track my time in the first place: to keep myself accountable.
-                    The idea that people can see how I am spending my time makes
-                    me much more motivated to spend my time in productive ways.
-                    In other words, I would be embarrassed if people went to this
-                    site and saw that I had not done anything productive in the
-                    last month. Hopefully, through this website, I will be forced
-                    to make sure that that never happens.
+                  I made this site public for accountability — the same reason I 
+                  began tracking my time. Knowing others can see how I spend my 
+                  hours pushes me to be more productive. I want to be proud of
+                  the life I live and part of that is being proud of how I 
+                  choose to spend my time.
                 </p>
             </div>
             <Footer />
