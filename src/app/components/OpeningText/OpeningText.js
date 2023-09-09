@@ -10,7 +10,7 @@ const OpeningText = () => {
           For the last four months I have been tracking how I spend each 15 
           minute block of time. Every day. Every hour. No matter what. This 
           website displays that data, updating by the minute, along
-          with my what I am learning from it.
+          with what I am learning from it.
         </p>
       </div>
       <div className={styles.linkList}>

@@ -20,7 +20,7 @@ const Data = () => {
             <li><b>Project and networking: </b>independent project or career-building activities</li>
             <li><b>Reading/podcast: </b>also a broader casual learning category</li>
             <li><b>Social: </b>time with friends and family</li>
-            <li><b>Phone/Youtube/TV: </b>this is for screentime that isn't educational</li>
+            <li><b>Phone/Youtube/TV: </b>this is for screen time that isn't educational</li>
             <li><b>Balloon twisting: </b>time spent making balloon animals</li>
             <li><b>Walking: </b>walking for travel or fun</li>
             <li><b>School club: </b>club events/club organizing</li>
@@ -29,7 +29,7 @@ const Data = () => {
             <li><b>Eat/shower: </b>includes things like cooking, brushing teeth, washing face, ect.</li>
           </ol>
           <p>
-            It is worth noting that I started recording data durring the end of 
+            It is worth noting that I started recording data during the end of 
             my spring quarter of my freshman year at UChicago so the data
             below is deceptively low in the homework and class categories.
           </p>
@@ -53,7 +53,7 @@ const Data = () => {
           <h2 className={styles.secondTitle}>Weekly coding average</h2>
           <p>
             This chart shows my weekly coding average over time. In the summer,
-            I shoot for around 30 hours a week. Durring the school year, I
+            I shoot for around 30 hours a week. During the school year, I
             shoot for closer to 15.
           </p>
           <p>
@@ -78,9 +78,9 @@ const Data = () => {
           <iframe className={styles.mobileGraph} width="362" height="226" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQM2aZd61dMcmqW3tL_ISD3HO46ElesE-DKvzRQAu0NpaiNCNQ6E19O78mnyasZVwuwD7q0pzSqnkua/pubchart?oid=576926545&amp;format=interactive"></iframe>
           <h2 className={styles.secondTitle}>Spring quarter classes</h2>
           <p>
-            I don't have a lot of data for the time I spend in school becuase I
+            I don't have a lot of data for the time I spend in school because I
             only started recording near the end of last school year. But I still
-            wanted to include this graph becuase I had separate categories for 
+            wanted to include this graph because I had separate categories for 
             homework in each class and I think the breakdown is interesting. The 
             Latin and biology averages go to almost 0 near the end because I 
             finished those classes first.

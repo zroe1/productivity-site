@@ -79,7 +79,7 @@ const Progress = () => {
         <ProgressBlock titleText="MIT 6.S191: Introduction to Deep Learning (class)" 
                        status="Completed August 9, 2023" link="https://github.com/zroe1/MIT-6.S191"
                        discription="
-          I took this class durring the 2023 summer to self-study AI and neural networks.
+          I took this class during the 2023 summer to self-study AI and neural networks.
           My lab work and final project have been posted on my GitHub.
         "/>
         <ProgressBlock titleText="tinyfilter (python package)" 
@@ -89,7 +89,7 @@ const Progress = () => {
           micrograd. It converts images into ASCII art using the principles of 
           CNNs (convolutional neural networks). The project has been open sourced
           on PyPi (to install run pip install tinyfilter). The code is also 
-          availible on my GitHub.
+          available on my GitHub.
         "/>
         <ProgressBlock titleText="roestories.com (website)" 
                        status="Completed for release on July 19, 2023" link="https://roestories.com/"
@@ -114,7 +114,7 @@ const Progress = () => {
                        discription="
           Using python I created a text user interface for the popular game 2048 
           and wrote an algorithm that beats the game ~30% of the time. The code
-          is availible on my GitHub.
+          is available on my GitHub.
         "/>
       </div>
       <Footer />

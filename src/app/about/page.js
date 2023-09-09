@@ -39,7 +39,7 @@ const About = () => {
                     By tracking how much time I spend coding, reading, and 
                     socializing, I have found that I do those things more.
                     Likewise, by tracking how much time I spend watching TV and
-                    scrolling on scoial media, I have found I do those things
+                    scrolling on social media, I have found I do those things
                     less.
                 </p>
                 <div className={styles.divider}></div>
