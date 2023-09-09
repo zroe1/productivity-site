@@ -9,15 +9,15 @@ const Progress = () => {
       <div className={styles.innerContainer}>
         <h1 className={styles.title}>My progress log</h1>
         <p>
-          This page includes a list of all the things I have accomplished since
-          I started recording this log along with items that I am currently working on. 
+          This page provides a list of all the projects I've completed since I 
+          began maintaining this log, as well as those I am currently working 
+          on.
         </p>
         <p>
-          I like to use this page as a kind of journal for the things I have
-          worked on. I can look back and see what I was working on and
-          what I should change. I also find it motivating to look at the items
-          on this page that are still in progress. They serve as a kind of
-          reminder to finish what I started.
+          I like to think of this page as a journal. I can look back and reflect 
+          on my past projects and consider areas for improvement. I can also 
+          keep track of what I am currently working on and remind myself to 
+          finish what I started.
         </p>
         <div className={styles.divider}></div>
         <p className={styles.boldCenter}>
@@ -25,30 +25,29 @@ const Progress = () => {
           it links to the project or code. Otherwise, it links to an outside page 
           with information about the item.
         </p>
-        <ProgressBlock titleText="Neural Network using only stdio.h & stdlib.h in C" 
+        <ProgressBlock titleText="Neural Network using only stdio.h and stdlib.h in C" 
                        status="70% accuracy (still making changes)" link="https://github.com/zroe1/neural-network-from-scratch"
                        discription="
-          Code for a fully functional neural network using only stdio.h and 
-          stdlib.h in C. I used the network to classify images from the MNIST 
-          dataset. Preforming matrix multiplication, calculating derivatives, 
-          and updating gradients is all done without any outside libraries.
+          This project contains code for a fully functional neural network using 
+          only stdio.h and stdlib.h in C. Matrix multiplication, derivative 
+          calculations, and gradient updates were all done without using any 
+          outside libraries.
         "/>
         <ProgressBlock titleText="AI Safety Fundamentals Alignment Course" 
                        status="Working on final project" link="https://course.aisafetyfundamentals.com/alignment"
                        discription="
           I am currently taking this course with a group of other interested
-          students to self-study the potential impact of AI. I am unsure about 
-          how I feel about a lot of the things discussed in the course but I find it
-          very interesting to think about.
+          students to self-study the potential impact of AI. We read technical
+          papers which we discuss as a group to gain understanding. We are 
+          currently working on replicating a paper as our final project.
         "/>
         <ProgressBlock titleText="zephaniahdev.com (React project)" 
                        status="Ready for release on August 19, 2023" link="https://zephaniahdev.com/"
                        discription="
-          zephaniahdev.com is a new personal website I created with React and 
-          Three.js. It serves as a home to all my important profiles and 
-          projects. Additionally, it contains an interactive user interface, and 
-          customizable settings, made possible by the powerful features built 
-          into React.
+          zephaniahdev.com is my personal website developed using React and 
+          Three.js. It is not only a hub for my profiles and projects - it's 
+          also interactive and fun to use.  It contains fun animations, an 
+          interactive user interface, and customizable settings.
         "/>
         <ProgressBlock titleText="zephaniahsdata.com (React project)" 
                        status="Testing release" link="https://github.com/zroe1/productivity-site"
@@ -68,13 +67,14 @@ const Progress = () => {
                        discription="
           This is a book discussing a new theory for how the neocortex works,
           and how it relates to the potential impacts of AI. I think the book is 
-          interesting, but I find the lack of intellectual humility on the side of the author 
-          a bit off-putting and untrustworthy.
+          interesting, but I find the lack of intellectual humility on the side 
+          of the author a bit off-putting and untrustworthy.
         "/>
         <ProgressBlock titleText="Comparing Sorting Algorithms in Rust and C" 
                        status="Implemented eight algorithms so far" link="https://github.com/zroe1/sorting-rust-c"
                        discription="
-            Implementation of various sorting algorithms and graphs of their performance in C and Rust.
+          Implementation of various sorting algorithms and graphs of their 
+          performance in C and Rust.
         "/>
         <ProgressBlock titleText="MIT 6.S191: Introduction to Deep Learning (class)" 
                        status="Completed August 9, 2023" link="https://github.com/zroe1/MIT-6.S191"
