@@ -26,7 +26,7 @@ const Progress = () => {
           with information about the item.
         </p>
         <ProgressBlock titleText="Neural Network using only stdio.h and stdlib.h in C" 
-                       status="70% accuracy (still making changes)" link="https://github.com/zroe1/neural-network-from-scratch"
+                       status="79% accuracy (finished for now)" link="https://github.com/zroe1/neural-network-from-scratch"
                        discription="
           This project contains code for a fully functional neural network using 
           only stdio.h and stdlib.h in C. Matrix multiplication, derivative 
