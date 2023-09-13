@@ -5,7 +5,6 @@ const Header = () => {
   return (
     <>
       <header className={styles.pageHead}>
-        {/*eslint-disable-next-line @next/next/no-img-element*/}
         <a href="../../">
           <img className={styles.icon} src="graphlogo.png" alt="logo"></img>
         </a>
@@ -16,7 +15,6 @@ const Header = () => {
           <Link className={`${styles.navLink} ${styles.desktopMenuLink}`} href="/progress">Progress</Link>
           <Link className={`${styles.navLink} ${styles.desktopMenuLink}`} href="/about">About</Link>
           <a className={`${styles.navLink} ${styles.desktopMenuLink}`} href="https://github.com/zroe1/productivity-site" target="_blank">GitHub</a>
-          {/*eslint-disable-next-line @next/next/no-img-element*/}
           <a href="https://github.com/zroe1/productivity-site" target="_blank"><img src="github-mark.png" alt="github" className={styles.githubLogo}></img></a>
         </nav>
       </header>

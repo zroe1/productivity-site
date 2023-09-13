@@ -1,5 +1,4 @@
 import styles from '../outsidePages.module.css'
-// import progressStyles from './page.module.css'
 import Footer from '../components/Footer/Footer'
 import ProgressBlock from '../components/ProgressBlock/ProgressBlock'
 

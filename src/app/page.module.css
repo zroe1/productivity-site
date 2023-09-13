@@ -1,7 +1,6 @@
 .container {
   display: flex;
   align-items: center;
-  /* height: 80vh; */
   width: 72vw;
   margin-left: 14vw;
 }
@@ -9,18 +8,14 @@
 .homeGraphic {
   position: relative;
   top: 20px;
-  /* width: 31vw;
-  z-index: -1; */
 }
 
 .homePageBottom {
   width: 100vw;
   height: calc(20vh - 60px);
-  /* background-color: grey; */
   display: flex;
   justify-content: center;
   align-items: center;
-
   position: absolute;
   bottom: 0px;
 }

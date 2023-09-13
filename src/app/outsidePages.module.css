@@ -4,8 +4,8 @@
 }
 
 .secondTitle {
-    font-weight: 600;
-    font-size: 1.5em;
+  font-weight: 600;
+  font-size: 1.5em;
 }
 
 .container {
@@ -49,6 +49,7 @@
   }
 }
 @media (max-device-width: 500px) {
+
   .container {
     margin-top: calc(10vw);
   }
