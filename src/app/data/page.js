@@ -30,7 +30,7 @@ const Data = () => {
         </ol>
         <p>
           It is worth noting that I started recording data during the end of 
-          my spring quarter of my freshman year at UChicago so the data
+          my spring quarter of my first year at UChicago so the data
           below is deceptively low in the homework and class categories.
         </p>
         <div className={styles.divider}></div>
@@ -76,9 +76,21 @@ const Data = () => {
         </p>
         <iframe className={styles.desktopGraph} width="446" height="278" seamless frameBorder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQM2aZd61dMcmqW3tL_ISD3HO46ElesE-DKvzRQAu0NpaiNCNQ6E19O78mnyasZVwuwD7q0pzSqnkua/pubchart?oid=1860419165&amp;format=interactive"></iframe>
         <iframe className={styles.mobileGraph} width="362" height="226" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQM2aZd61dMcmqW3tL_ISD3HO46ElesE-DKvzRQAu0NpaiNCNQ6E19O78mnyasZVwuwD7q0pzSqnkua/pubchart?oid=576926545&amp;format=interactive"></iframe>
-        <h2 className={styles.secondTitle}>Spring quarter classes</h2>
+        <h2 className={styles.secondTitle}>Fall quarter classes (2023)</h2>
         <p>
-          I don't have a lot of data for the time I spend in school because I
+          This is data for my current classes for the fall quarter of the
+          2023 school year. The y-axis represents the weekly average time
+          spent per class.
+        </p>
+        <p>
+          <b>Note: </b>the computer science category includes time I spend
+          working on personal coding projects.
+        </p>
+        <iframe className={styles.desktopGraph} width="446" height="269" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQM2aZd61dMcmqW3tL_ISD3HO46ElesE-DKvzRQAu0NpaiNCNQ6E19O78mnyasZVwuwD7q0pzSqnkua/pubchart?oid=1476576617&amp;format=interactive"></iframe>
+        <iframe className={styles.mobileGraph} width="362" height="220" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQM2aZd61dMcmqW3tL_ISD3HO46ElesE-DKvzRQAu0NpaiNCNQ6E19O78mnyasZVwuwD7q0pzSqnkua/pubchart?oid=1647836483&amp;format=interactive"></iframe>
+        <h2 className={styles.secondTitle}>Spring quarter classes (2023)</h2>
+        <p>
+          I don't have a lot of data for this quarter because I
           only started recording near the end of last school year. But I still
           wanted to include this graph because I had separate categories for 
           homework in each class and I think the breakdown is interesting. The 
