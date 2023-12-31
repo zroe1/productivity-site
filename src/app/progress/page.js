@@ -24,8 +24,17 @@ const Progress = () => {
           it links to the project or code. Otherwise, it links to an outside page 
           with information about the item.
         </p>
+        <ProgressBlock titleText="Toy Models of Superposition Replication" 
+                       status="Finished (for now) as of December 29, 2023" link="https://github.com/zroe1/toy-models-of-superposition"
+                       discription="
+            Toy Models of Superposition is a groundbreaking machine learning 
+            research paper published by authors affiliated with Anthropic and 
+            Harvard in 2022. As a personal ML project, I replicated
+            some of the most important results from the original paper. The project
+            involved training over a million small neural networks.
+        "/>
         <ProgressBlock titleText="Neural Network using only stdio.h and stdlib.h in C" 
-                       status="79% accuracy (finished for now)" link="https://github.com/zroe1/neural-network-from-scratch"
+                       status="Finished September 17, 2023" link="https://github.com/zroe1/neural-network-from-scratch"
                        discription="
           This project contains code for a fully functional neural network using 
           only stdio.h and stdlib.h in C. Matrix multiplication, derivative 
@@ -33,12 +42,12 @@ const Progress = () => {
           outside libraries.
         "/>
         <ProgressBlock titleText="AI Safety Fundamentals Alignment Course" 
-                       status="Working on final project" link="https://course.aisafetyfundamentals.com/alignment"
+                       status="Finished September 4, 2023" link="https://course.aisafetyfundamentals.com/alignment"
                        discription="
-          I am currently taking this course with a group of other interested
+          I took this course with a group of other interested
           students to self-study the potential impact of AI. We read technical
-          papers which we discuss as a group to gain understanding. We are 
-          currently working on replicating a paper as our final project.
+          papers which we discussed as a group to gain understanding. The syllabus
+          for the course can be found by clicking on this block.
         "/>
         <ProgressBlock titleText="zephaniahdev.com (React project)" 
                        status="Ready for release on August 19, 2023" link="https://zephaniahdev.com/"
