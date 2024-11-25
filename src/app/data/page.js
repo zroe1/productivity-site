@@ -175,6 +175,32 @@ const Data = () => {
           scrolling="no"
           src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQM2aZd61dMcmqW3tL_ISD3HO46ElesE-DKvzRQAu0NpaiNCNQ6E19O78mnyasZVwuwD7q0pzSqnkua/pubchart?oid=576926545&amp;format=interactive"></iframe>
 
+        <h2 className={styles.secondTitle}>Sping quarter classes (2024)</h2>
+        <p>
+          This is data for my current classes for the spring quarter of the 2024 school year. The
+          y-axis represents the weekly average time spent per class.
+        </p>
+        <p>
+          <b>Note: </b>the computer science category includes time I spend working on personal
+          coding projects.
+        </p>
+        <iframe
+          className={styles.desktopGraph}
+          width="446"
+          height="269"
+          seamless
+          frameborder="0"
+          scrolling="no"
+          src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQM2aZd61dMcmqW3tL_ISD3HO46ElesE-DKvzRQAu0NpaiNCNQ6E19O78mnyasZVwuwD7q0pzSqnkua/pubchart?oid=1586248796&amp;format=interactive"></iframe>
+        <iframe
+          className={styles.mobileGraph}
+          width="362"
+          height="220"
+          seamless
+          frameborder="0"
+          scrolling="no"
+          src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQM2aZd61dMcmqW3tL_ISD3HO46ElesE-DKvzRQAu0NpaiNCNQ6E19O78mnyasZVwuwD7q0pzSqnkua/pubchart?oid=1586248796&amp;format=interactive"></iframe>
+
         <h2 className={styles.secondTitle}>Winter quarter classes (2024)</h2>
         <p>
           This is data for my current classes for the winter quarter of the 2024 school year. The
