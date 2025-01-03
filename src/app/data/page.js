@@ -88,8 +88,9 @@ const Data = () => {
         <h2 className={styles.secondTitle}>Today's data</h2>
         <p>
           This is the data for what I have done so far today. Today's date should be in the title of
-          the graph. If there is no data and it is early in morning, I am probably sleeping and have
-          not gotten up yet and charted my sleeping time.
+          the graph. I manually switch over the dates each morning to force myself to reflect on the
+          data from the past day, so if you are seeing a previous day, it is probably because I'm
+          still sleeping (or in a place where I don't have WIFI).
         </p>
         <iframe
           className={styles.desktopGraph}
