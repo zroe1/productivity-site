@@ -40,17 +40,28 @@ const Progress = () => {
           link="https://github.com/zroe1/alt-protein-computational"
           discription="This project introduces a novel approach to protein 
           classification using steering vectors derived from protein language 
-          models. By computing directional vectors in the model's hidden space 
-          that distinguish between different protein properties (such as 
-          membrane vs. cytosolic proteins), the framework achieves high accuracy 
-          with minimal training data. The implementation demonstrates this 
+          models. The implementation demonstrates this 
           technique using the ESM-2 protein language model, achieving 
           approximately 90% accuracy in protein localization classification with 
-          only 200 training examples per class. This proof-of-concept shows 
-          promise for efficiently analyzing and classifying proteins for various 
-          applications in biotechnology and alternative protein development."
+          only 200 training examples per class."
         />
-
+        <ProgressBlock
+          titleText="uchicagoaisafety.com"
+          status="Last updated December 30, 2024"
+          link="https://uchicagoaisafety.com/"
+          discription="
+            A website I created for the UChicago AI Safety Club, a student organization 
+            that I help lead. 
+        "
+        />
+        <ProgressBlock
+          titleText="chicagoalignment.com"
+          status="Last updated December 17, 2024"
+          link="https://uchicagoaisafety.com/"
+          discription="
+            A website I created for an upcoming AI alignment conference at the University of Chicago.
+        "
+        />
         <ProgressBlock
           titleText="Toy Models of Superposition Replication"
           status="Finished (for now) as of December 29, 2023"
